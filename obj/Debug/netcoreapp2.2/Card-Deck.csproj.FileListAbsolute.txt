@@ -1,0 +1,11 @@
+C:\Users\cnelson\Google Drive\DojoReview\dotNETCore\C#\Card-Deck\bin\Debug\netcoreapp2.2\Card-Deck.deps.json
+C:\Users\cnelson\Google Drive\DojoReview\dotNETCore\C#\Card-Deck\bin\Debug\netcoreapp2.2\Card-Deck.runtimeconfig.json
+C:\Users\cnelson\Google Drive\DojoReview\dotNETCore\C#\Card-Deck\bin\Debug\netcoreapp2.2\Card-Deck.runtimeconfig.dev.json
+c:\Users\cnelson\Google Drive\DojoReview\dotNETCore\C#\Card-Deck\bin\Debug\netcoreapp2.2\Card-Deck.dll
+c:\Users\cnelson\Google Drive\DojoReview\dotNETCore\C#\Card-Deck\bin\Debug\netcoreapp2.2\Card-Deck.pdb
+c:\Users\cnelson\Google Drive\DojoReview\dotNETCore\C#\Card-Deck\obj\Debug\netcoreapp2.2\Card-Deck.csprojAssemblyReference.cache
+c:\Users\cnelson\Google Drive\DojoReview\dotNETCore\C#\Card-Deck\obj\Debug\netcoreapp2.2\Card-Deck.csproj.CoreCompileInputs.cache
+c:\Users\cnelson\Google Drive\DojoReview\dotNETCore\C#\Card-Deck\obj\Debug\netcoreapp2.2\Card-Deck.AssemblyInfoInputs.cache
+c:\Users\cnelson\Google Drive\DojoReview\dotNETCore\C#\Card-Deck\obj\Debug\netcoreapp2.2\Card-Deck.AssemblyInfo.cs
+c:\Users\cnelson\Google Drive\DojoReview\dotNETCore\C#\Card-Deck\obj\Debug\netcoreapp2.2\Card-Deck.dll
+c:\Users\cnelson\Google Drive\DojoReview\dotNETCore\C#\Card-Deck\obj\Debug\netcoreapp2.2\Card-Deck.pdb
