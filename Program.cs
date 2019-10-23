@@ -12,10 +12,15 @@ namespace Card_Deck
     {
         static void Main(string[] args)
         {
-            Deck dek = new Deck();
-            dek.Deal();
-            dek.Shuffle();
-            dek.Reset();
+            Deck deck = new Deck();
+            deck.Shuffle();
+            // deck.Reset();
+
+            Player player = new Player("Bob");
+            player.Draw(deck);
+            player.Draw(deck);
+            player.Discard(0);
+            player.Discard(1);
         }
     }
     class Card
@@ -70,6 +75,36 @@ namespace Card_Deck
                 Card temp = cards[i];
                 cards[i] = cards[r];
                 cards[r] = temp;
+            }
+        }
+    }
+    class Player
+    {
+        string name {get;set;}
+        List<Card> hand = new List<Card>();
+
+        public Player(string _name)
+        {
+            name = _name;
+        }
+
+        public Card Draw(Deck deck)
+        {
+            Card card = deck.Deal();
+            hand.Add(card);
+            return card;
+        }
+        public Card Discard(int i)
+        {
+            if (i < hand.Count)
+            {
+                Card card = hand[i];
+                hand.RemoveAt(i);
+                return card;
+            }
+            else
+            {
+                return null;
             }
         }
     }
