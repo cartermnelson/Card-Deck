@@ -13,6 +13,9 @@ namespace Card_Deck
         static void Main(string[] args)
         {
             Deck dek = new Deck();
+            dek.Deal();
+            dek.Shuffle();
+            dek.Reset();
         }
     }
     class Card
@@ -40,6 +43,33 @@ namespace Card_Deck
                 {
                     cards.Add(new Card(suit, i));
                 }
+            }
+        }
+        public Card Deal()
+        {
+            Card carddealt = cards[0];
+            cards.RemoveAt(0);
+            return carddealt;
+        }
+        public void Reset()
+        {
+            cards.Clear();
+            foreach (var suit in Constants.suits)
+            {
+                for (int i = 1; i <= 13; i++)
+                {
+                    cards.Add(new Card(suit, i));
+                }
+            }
+        }
+        public void Shuffle()
+        {
+            for (int i = 0; i < cards.Count; i++)
+            {
+                int r = new Random().Next(cards.Count);
+                Card temp = cards[i];
+                cards[i] = cards[r];
+                cards[r] = temp;
             }
         }
     }
